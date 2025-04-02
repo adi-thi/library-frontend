@@ -1,0 +1,139 @@
+ *{
+    margin: 0;
+    padding: 0;
+   
+ }
+ .nav-tabs{ 
+    background-color: darkslategray;
+    color:antiquewhite;
+    height: 80px;
+    width:100%;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+
+h1{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+     /* display : flex; */
+}
+
+
+.top {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    opacity: 1;
+    position: absolute;
+}
+
+.books{
+    position: absolute;
+    margin-top: 150px;
+    a{ margin-left: 100px ;
+        color:antiquewhite;}
+   p{ height: 350px;
+    width: 250px;
+    overflow:auto;
+    margin-left: 100px ;
+    text-align: justify;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    background-color: lightyellow;
+}
+}
+.authors{
+    position: absolute;
+    margin-top: 150px;
+    a{ margin-left: 550px ;
+    color:antiquewhite;}
+   p{ height: 350px;
+    width: 250px;
+    overflow:auto;
+    margin-left: 550px ;
+    text-align: justify;
+   padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    background-color: lightyellow;
+}
+}
+    
+.refpapers{
+    margin-top: 150px;
+    a{ margin-left: 1000px ;
+    color:antiquewhite;}
+   p{height: 350px;
+    width: 250px;
+    overflow:auto;
+    margin-left: 1000px ;
+    text-align: justify;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightyellow;
+    
+   }
+    
+}
+.container{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    gap: 50px;
+}
+.search-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 20px; 
+}
+
+.search-input {
+    width: 300px; 
+    height: 40px; 
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    /* margin-left: 225px; */
+    align-items: center;
+}
+
+.search-button {
+    width: 50px; 
+    height: 44px; 
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-button:hover {
+    background-color: #555; 
+}
+
+.nav-link active,.nav-link{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+    height :30px;
+    width: 50px;
+}
+body{
+    background-image: url(blrlib.jpg);
+    /* opacity: 0.5; */
+    background-size: cover;
+background-blend-mode: lighten;
+background-repeat: no-repeat;
+
+}
